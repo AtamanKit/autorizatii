@@ -1,0 +1,54 @@
+.up-space{
+    margin-top: 3%;
+}
+
+.up-space-reus{
+    margin-top: 7%;
+}
+
+/* .up-space-error{
+    margin-top: 20%;
+} */
+
+/* .up-space-reus{
+    margin-top: 7%;
+} */
+
+.logo-inreg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* .logo-inreg-error {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+.form-inreg {
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 2%; */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.obligatoriu {
+    background-color: rgb(245, 235, 235);
+    text-align: center;
+}
+
+.success {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(46, 170, 77);
+    padding: 1%;
+    border: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    /* border-color: rgb(53, 77, 56) */
+}
+

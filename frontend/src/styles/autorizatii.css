@@ -1,0 +1,149 @@
+.centerAL {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dispozitie {
+  background-color: rgb(200, 200, 200)
+}
+  
+table, th, td {
+  border: 1px solid rgb(190, 190, 190);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.th-al-title {
+  position: sticky;
+  top: 0;
+  width: 95%;
+  height: 70px;
+  background-color: rgb(100, 100, 100);
+  color: rgb(250, 250, 250);
+  z-index: 0;
+}
+
+.th-al-menu {
+  position: sticky;
+  top: 0;
+  border: hidden;
+  /* width: 95%; */
+  /* height: 70px; */
+  background-color: rgb(100, 100, 100);
+  color: rgb(250, 250, 250)
+}
+
+.th-al-column-name {
+  position: sticky;
+  top: 7%;
+  border: 1px solid rgb(190, 190, 190);
+  background-color: rgba(255, 255, 255, 0.5);
+  /* opacity: 0.7; */
+}
+
+td {
+  text-align: center;
+  padding: 5px;
+}
+  
+.tr-al {
+  background-color: rgb(230, 230, 230);
+  /* z-index: 3; */
+}
+
+/* .tr-al:hover {
+  background-color: rgb(200, 200, 200);
+} */
+
+
+.nou-inregistrat {
+  background-color: rgb(179, 48, 48);
+  color: rgb(255, 255, 255)
+}
+
+.nu-lucrat {
+  background-color: rgb(13, 158, 163);
+}
+
+.acceptat {
+  background-color: rgb(92, 156, 107)
+}
+  
+.pregatire {
+  background-color: rgb(35, 99, 145);
+  color: rgb(250, 250, 250)
+}
+
+.admitere {
+  background-color: rgb(194, 199, 40)
+}
+
+.terminat {
+  background-color: rgb(80, 80, 80);
+  color: rgb(255, 255, 255)
+}
+
+.intrerupere {
+  background-color: rgb(137, 156, 134);
+  color: rgb(255, 255, 255)
+}
+
+.un {
+  background-color: rgb(180, 60, 60)
+}
+  
+.fl {
+  background-color: rgb(87, 107, 148)
+}
+
+.gl {
+  background-color: rgb(150, 150, 150)
+}
+
+.rs {
+  background-color: rgb(130, 100, 200)
+}
+
+.sef {
+  background-color: rgb(158, 81, 81);
+}
+  
+.pt {
+  background-color: rgb(51, 105, 143);
+  /* width: 10px; */
+  /* word-break:normal; */
+}
+
+.banner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 300px;
+}
+  
+/* For 'Deranjamente' section*/
+.continutul {
+  background-color: rgb(13, 110, 106)
+}
+
+.executat {
+  background-color: rgb(68, 112, 71);
+}
+
+.link-al {
+  background-color: rgb(121, 113, 145);
+  /* word-break: break-all; */
+}
+
+.da {
+  background-color: rgb(55, 119, 87);
+}
+.nu {
+  background-color: rgb(110, 76, 76)
+}
+/* tr:nth-child(even) {
+  background-color: rgb(240, 240, 240)
+} */

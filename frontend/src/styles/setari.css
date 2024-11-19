@@ -1,0 +1,49 @@
+.up-space-setari {
+    margin-top: 4%;
+}
+
+.logo-setari {
+    display: block;
+    margin: auto;
+}
+
+.input-setari {
+    width: 90%;
+}
+
+.setat-succes {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(46, 170, 77);
+    padding: 1%;
+    border: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    /* border-color: rgb(53, 77, 56) */
+}
+
+.form-setari {
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.trimite_btn {
+    margin-top: 30%;
+    width: 100%;
+    padding: 13px;
+    background-color: rgb(112, 89, 89);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    border: 0px;
+    cursor: pointer
+}
+.trimite_btn:hover {
+    background-color: rgb(132, 109, 109);
+}
+.trimite_btn:active {
+    background-color: rgb(152, 129, 129);
+}

@@ -1,0 +1,38 @@
+.drop-oficii {
+    position: fixed;
+    margin-left: 180px;
+    margin-right: auto;
+    top: 4.7%;
+    z-index: 2;
+}
+.drop-month {
+    position: fixed;
+    margin-left: 400px;
+    top: 4.7%;
+    z-index: 2;
+}
+.drop-sect {
+    position: fixed;
+    margin-left: 400px;
+    top: 4.7%;
+    z-index: 1;
+}
+.drop-pt {
+    position: fixed;
+    margin-left: 180px;
+    margin-right: auto;
+    top: 11%;
+    z-index: 1;
+}
+.drop-angaj {
+    position: fixed;
+    margin-left: 400px;
+    top: 11%;
+    z-index: 1;
+}
+.check {
+    position: fixed;
+    margin-left: 609px;
+    top: 6%;
+    z-index: 0;
+}

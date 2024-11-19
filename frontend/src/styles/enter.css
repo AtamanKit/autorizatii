@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(80, 80, 80);
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6%;
+}
+
+.bir_disp {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.form-enter {
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 2%; */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.logare-text {
+    text-align: center;
+    color: rgb(85, 85, 85);
+}
+
+.no-pass {
+    text-align: center;
+    color: rgb(199, 52, 52);
+    background-color: rgb(253, 250, 209);
+    padding: 2%;
+    border: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(219, 135, 135)
+}
+
+.generare-cod {
+    /* display: block; */
+    width: 100%;
+    padding: 13px;
+    background-color: rgb(110, 110, 110);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    border: 0px;
+    cursor: pointer
+}
+.generare-cod:hover {
+    background-color: rgb(130, 130, 130);
+}
+.generare-cod:active {
+    background-color: rgb(150, 150, 150);
+}
+
+.login {
+    width: 100%;
+    padding: 13px;
+    background-color: rgb(112, 89, 89);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    border: 0px;
+    cursor: pointer
+}
+.login:hover {
+    background-color: rgb(132, 109, 109);
+}
+.login:active {
+    background-color: rgb(152, 129, 129);
+}
+
+.login-vezi {
+    width: 100%;
+    padding: 13px;
+    background-color: rgb(44, 112, 80);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    border: 0px;
+    cursor: pointer
+}
+.login-vezi:hover {
+    background-color: rgb(71, 139, 86);
+}
+.login-vezi:active {
+    background-color: rgb(134, 152, 129);
+}

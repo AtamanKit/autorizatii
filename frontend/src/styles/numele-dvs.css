@@ -1,0 +1,25 @@
+.numDvs {
+    background-color: rgb(87, 87, 87), 1;
+    width: 200px;
+    height: 50px;
+    position: fixed;
+    z-index: 1;
+    margin-left: 40px;
+    top: 200px;
+    color: rgb(250, 250, 250);
+    padding-top: 10px;
+    text-align:center;
+   }
+
+   .total {
+    background-color: rgb(87, 87, 87), 1;
+    width: 200px;
+    height: 50px;
+    position: fixed;
+    z-index: 1;
+    margin-left: 40px;
+    top: 250px;
+    color: rgb(250, 250, 250);
+    padding-top: 10px;
+    text-align:center;
+   }
