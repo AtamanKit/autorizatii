@@ -54,13 +54,12 @@ def date_get():
 app = Flask(__name__)
 
 # direnv.load()
-# Load environment variables from .env filr
+# Load environment variables from .env file
 load_dotenv()
 
-# app.config['MONGO_URI'] = f'mongodb+srv://PdjtUn:123pdj34@red-nord.lhwnm.mongodb.net/djUN_{date_get()[5]}_test?retryWrites=true&w=majority'
-app.config['MONGO_URI'] = f'{os.environ["MONGODB_URL"]}djUN_{date_get()[5]}?retryWrites=true&w=majority'
+app.config['MONGO_URI'] = f'mongodb://{os.environ["MONGO_USERNAME"]}:{os.environ["MONGO_PASSWORD"]}@db/djUN_{date_get()[5]}?authSource=admin'
 mongo = PyMongo(app)
-app.config['MONGO_URI'] = f'{os.environ["MONGODB_URL"]}General?retryWrites=true&w=majority'
+app.config['MONGO_URI'] = f'mongodb://{os.environ["MONGO_USERNAME"]}:{os.environ["MONGO_PASSWORD"]}@db/General?authSource=admin'
 mgGen = PyMongo(app)
 
 # print("Begin_test")
