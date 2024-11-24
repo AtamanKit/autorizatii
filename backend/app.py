@@ -3546,9 +3546,3 @@ def get_sterg_pt(abrOf, pt):
 #     result = veryfy.verification_checks.create(to=myTel, code=smsCode)
 #     if result.status == 'approved':
 #         return "approved"
-
-
-
-
-
-
